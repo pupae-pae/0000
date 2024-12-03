@@ -1,0 +1,25 @@
+//-----------------------------------------------------------------//
+const user= {
+    id: 1,
+    name: "John",
+    email:"John@gmail.com"
+}
+const user2= {
+    id: 2,
+    name: "Pupae",
+    email:"Pupae@gmail.com"
+}
+const std=[user,user2]
+console.log(std)
+console.log(std[1].name)
+//-----------------------------------------------------------------//
+const  name ="React"
+const  version =18
+const  isActive =true
+console.log(typeof name, typeof version, typeof isActive)
+//-----------------------------------------------------------------//
+const skills = ["JavaScript", "React"]
+console.log(typeof user, typeof skills)
+//-----------------------------------------------------------------//
+console.log(user.name)
+console.log(skills[0])
